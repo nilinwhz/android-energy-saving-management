@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+    <ListView android:id="@id/android:list"
+        android:layout_above="@+id/relativelayout_operation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:id="@+id/relativelayout_operation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button 
+			android:id="@+id/btn_refresh_process" 
+            android:text="刷      新" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:textSize="7pt"
+            android:paddingTop="1dip"
+            android:paddingBottom="1dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="30dip"></Button>
+        <Button 
+            android:id="@+id/btn_closeall_process" 
+            android:text="@string/kill_all" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textSize="7pt" 
+            android:paddingTop="1dip"
+            android:paddingBottom="1dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dip"></Button> 
+    </RelativeLayout>
+
+</RelativeLayout>

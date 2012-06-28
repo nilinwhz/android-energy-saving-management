@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">powermanager</string>
+    <string name="title">HITCS-8</string>
+    <string name="process_lable">请点我</string>
+    <string name="test_lable">电池状态</string>
+    <string name="tab_title_b">电池状态</string>
+    <string name="test_press_lable">测试当前电池状态</string>
+    <string name="exit_lable">不要点</string>
+    <string name="tab_title_process">进程</string>
+    
+    <string name="please_select">请选择</string>
+    <string name="info_detail">进程详情</string>
+    <string name="kill_process">直接结束</string>
+    <string name="kill_all">一键清理</string>
+    
+    <string name="unknown">未知</string>
+    <string name="no_use">暂无</string>
+    
+    <string name="refresh">刷新</string>
+    <string name="setting">设置</string>
+    <string name="quit">退出</string>
+    
+    <string name="detail_process_name">进程</string>
+    <string name="detail_process_copyright">版权</string>
+    <string name="detail_process_install_dir">安装</string>
+    <string name="detail_process_data_dir">数据</string>
+    <string name="detail_process_package_size">文件大小</string>
+    <string name="detail_process_permission">权限</string>
+    <string name="detail_process_activity">活动</string>
+    <string name="detail_process_service">服务</string>
+    
+    <string name="detail_process_company">公司:</string>
+    <string name="detail_process_version">版本:</string>
+    
+    <string name="basic_info_cpu">CPU:</string>
+    <string name="basic_info_mem">MEM:</string>
+    
+    <string name="progress_tips_title">正在刷新</string>
+    <string name="progress_tips_content">loading...</string>
+</resources>

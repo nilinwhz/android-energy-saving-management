@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/test_press_lable"
+        android:textColor="#ffffffff"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="35dp"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColor="#ffffffff"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</LinearLayout>

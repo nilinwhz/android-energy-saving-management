@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qq"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="30dip" >
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="375dp"
+        android:layout_weight="0.06"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/process_button"
+            style="@android:style/DeviceDefault.ButtonBar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/process_lable"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/exit_button"
+            style="@android:style/DeviceDefault.ButtonBar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/process_button"
+            android:layout_alignParentBottom="true"
+            android:text="@string/exit_lable" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
